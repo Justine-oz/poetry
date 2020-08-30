@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+.container {
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  display: block;
+  margin-top: 42vh;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+#knots {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: #a90eb1;
+}
+
+#getin {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.container p span.typed-text {
+  font-weight: normal;
+  color: #a90eb1;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
